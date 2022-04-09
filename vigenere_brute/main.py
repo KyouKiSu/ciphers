@@ -7,11 +7,11 @@ from itertools import chain, product
 from bisect import bisect_left
 
 
-word_to_decrypt = "QLFULA"
-min_key_length = 3
-max_key_length = 6
+word_to_decrypt = "dhdlfbjnn"
+min_key_length = 1
+max_key_length = 7
 
-min_work = 0.75
+min_work = 0.4
 
 
 def bruteforce(charset):

@@ -5,7 +5,7 @@ from pycipher import Gronsfeld
 from itertools import chain, product
 from bisect import bisect_left
 
-word_to_decrypt = "jemqq wpwnd"
+word_to_decrypt = "QRTLXD AITBXD NKTBSY OEEYBY KJHYBQ"
 min_key_length = 4
 max_key_length = 5
 

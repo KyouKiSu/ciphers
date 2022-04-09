@@ -6,11 +6,11 @@ import my_keyword
 from itertools import chain, product
 from bisect import bisect_left
 
-word_to_decrypt = "dmu kpa xms wmflc"
-min_key_length = 4
-max_key_length = 8
+word_to_decrypt = "dhdlfbjnn"
+min_key_length =1
+max_key_length = 7
 
-min_work = 0.75
+min_work = 0.4
 
 def bruteforce(charset):
     global min_key_length
